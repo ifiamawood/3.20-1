@@ -10,7 +10,7 @@ using namespace cv;
 
 int main()
 {
-	cv::Mat a = imread("D:\\coin.png", 0);
+	cv::Mat a = imread("D:\\coin.png", 0); 
 	cv::Mat b;
 	cv::Mat c,d,e,f;
 	cv::threshold(a, b, 0, 255, THRESH_OTSU);
